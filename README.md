@@ -1,2 +1,3 @@
-# professional_website
-A place to share my projects and demonstrate my skills.
+# website
+A place to share my work, skills, and passion projects. 
+Under Construction
