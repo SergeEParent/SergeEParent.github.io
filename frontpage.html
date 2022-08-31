@@ -1,6 +1,6 @@
-<!-- this is a comment -->
+<!-- this line is a comment. in VScode you can toggle a line between commented and uncommented using 'CTRL + /', it is the equivalent to 'CTRL + 1' in Spyder or 'CTRL + T' in TeXStudio. -->
 <!-- here is an example web page --> 
-<!DOCTYPE html> <!--Set the document type. Apparently in HTML5 it is recommended to use <!DOCTYPE html>-->
+<!DOCTYPE html> <!--Set the document type. In HTML5 it is recommended to use <!DOCTYPE html>-->
 <html> <!-- this starts the webpage -->
     <head>
         <title>Serge E. Parent</title> <!--title (obviously), should put my title in the title if I get one (Dr. Parent?)-->
@@ -16,30 +16,37 @@
             <!-- <a href="hyperlink">Name</a> --><!-- an example of an entry in the navigation bar.
                                                       Each entry goes on a new line. 
                                                       >Name< will be the clickable text in the navigation bar. -->
-            <a href="frontpage.html">Home</a>
-            <a href="loc">About Me</a> <!--basically put your elevator pitch here-->
+            <a href="frontpage.html">Home</a> <!--basically put your elevator pitch here-->
             <a href="loc">Research Interests</a>
             <a href="loc">Resume</a> <!-- turn into sub-menu item under 'About Me' -->
             <a href="loc">Open Data</a>
             <a href="publications.html">Publications</a> <!-- turn into sub-menu item under 'Research Interests' -->
-            <a href="loc">Service Work</a> <!--For example peer-reviews, etc. Should probably NOT state what the specific paper was though, just journal-->
+            <!-- <a href="loc">Service Work</a> --><!--For example peer-reviews, etc. Should probably NOT state what the specific paper was though, just journal-->
             <a href="loc">Projects</a> <!-- Maybe split up projects into individual things-->
             <a href="loc">Code</a> <!--Maybe this should be combined with Projects?-->
-            <a href="loc">Hobbies</a> <!--There's the Life Sciences, and there's the "Real Life" Sciences-->
+            <!-- <a href="loc">Hobbies</a> --> <!--There's the Life Sciences, and there's the "Real Life" Sciences--> <!-- I think that I actually won't include this section. -->
             <!-- TODO: maybe just have "frontpage/about me", "science/research interests", "coding", "data and scripts" as separate pages? and then have 
                 subsections in each page? Like a drop-down menu that shows up when you hover over a particular nav bar item?-->
+            <!-- Include 'Gallery' section? (For showing pretty pictures/videos, 3D models/z-stacks, or other?) -->
         </nav> <!-- navigation bar end -->
         
         <main> <!-- main text goes here -->
-            <h2>About Me <!--This part seems like it would belong in the "About Me" section, move it there? Can I link to something on the same page?-->
-            I am a scientist with an interest in the following questions:
-            How is a tissue built?
-            How do cells integrate themselves into a tissue?
-            How do cells recognize and interpret the identity of another cell?
-            What are the stable states of a cell? Can a stability analysis be performed on a cell to determine if it will be 'happy' over a long period of time in a given environment (eg. if it has assimilated into a new tissue)?
-            If you introduce a cell into a tissue, will it integrate? If not, why not?
-            I enjoy making things, whether they be large imaging datasets, 3D models, code and algorithms, graphs, or figures for papers. 
-            My dream is to be able to make cells and tissues with a specific function or purpose that integrate themselves with into an organism.
+            <h2>About Me:</h2> <!--This part seems like it would belong in the "About Me" section, move it there? Can I link to something on the same page?-->
+
+            <img src="portrait_photo.jpg" alt="Picture of me." style="padding-left:12pt; float:right; width:200px; height:200px;">
+
+            <p style="text-align:justify">
+                I am a scientist with an interest in the following questions:
+                How is a tissue built?
+                How do cells integrate themselves into a tissue?
+                How do cells recognize and interpret the identity of another cell?
+                What are the stable states of a cell? Can a stability analysis be performed on a cell to determine if it will be 'happy' over a long period of time in a given environment (eg. if it has assimilated into a new tissue)?
+                If you introduce a cell into a tissue, will it integrate? If not, why not?
+                I enjoy making things, whether they be large imaging datasets, 3D models, code and algorithms, graphs, or figures for papers. 
+                My dream is to be able to make cells and tissues with a specific function or purpose that integrate themselves with into an organism.
+            </p>
+
+            <p style="margin-bottom:2cm;">
 
             <address>I cobbled this website together myself.<br> -- Last updated January 30th, 2021.</address>
 
