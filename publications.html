@@ -1,78 +1,95 @@
 <!DOCTYPE html>
-    <head>
-    </head>
 
-    <body>
-        <header>
-            <h1><img src="imagename.png" alt="Publications" />
-            <link rel="stylesheet" href="webpage_style.css">
-        </header>
+<head>
+    <title>Publications</title>
+    <link rel="stylesheet" href="webpage_style.css">
+</head>
+    
+<body>
+    <header>
+        <h1><img src="imagename.png" alt="Publications" />
+        <link rel="stylesheet" href="webpage_style.css">
+    </header>
+    
+    <nav> <!-- navigation bar start -->
+        <!-- <a href="hyperlink">Name</a> --><!-- an example of an entry in the navigation bar.
+                                                    Each entry goes on a new line. 
+                                                    >Name< will be the clickable text in the navigation bar. -->
+
+        <!-- the front page basically contains my "elevator pitch" and research interests -->
+        <a href="frontpage.html">About Me</a> 
+
+        <!-- my resume / CV gets its own page just because I want it to be VERY obvious and easy to find... -->
+        <a href="SergeParent_CV.pdf" target="_blank" rel="noopener noreferrer">Resume</a> 
         
-        <nav> <!-- navigation bar start -->
-            <!-- <a href="hyperlink">Name</a> --><!-- an example of an entry in the navigation bar. 
-                                                      Each entry goes on a new line. 
-                                                      >Name< will be the clickable text in the navigation bar. -->
-            <a href="frontpage.html">Home</a> <!--basically put your elevator pitch here-->
-            <a href="loc">Research Interests</a>
-            <a href="loc">Resume</a>
-            <a href="loc">Open Data</a>
-            <a href="publications.html">Publications</a>
-            <!-- <a href="loc">Service Work</a> --><!--For example peer-reviews, etc. Should probably NOT state what the specific paper was though, just journal-->
-            <a href="loc">Projects</a> <!-- Maybe split up projects into individual things-->
-            <a href="loc">Code</a> <!--Maybe this should be combined with Projects?-->
-            <!-- <a href="loc">Hobbies</a> --> <!--There's the Life Sciences, and there's the "Real Life" Sciences--> <!-- I think that I actually won't include this section. -->
-        </nav> <!-- navigation bar end -->
+        <!-- The "Projects" page will either be a more science-focused version of the "Code" page (with the same sub-sections), or will be combined with that page. -->
+        <!-- <a href="loc">Projects</a> -->
+
+        <!-- having a publications section seems pretty standard for scientists. Depending on my career in the future it may be removed one day. -->
+        <a href="publications.html">Publications</a>
+
+        <!-- <a href="loc">Service Work</a> --><!--For example peer-reviews, etc. Should probably NOT state what the specific paper was though, just journal-->
         
-        <!--Main contact goes below-->
-        <p style="margin-bottom:1cm;"> <!-- [style="margin-bottom:1cm;"] adds 1cm of empty space after the paragraph -->
-            Papers are organized chronologically. 
-            If you would like to read a paper but cannot access it for any reason, 
-            please feel free to contact me. 
-            <br/>First authorship entries are <b>bolded</b>, reviews are <i>italicized</i>.</p>
+        <!--Maybe the "Code" page should be combined with Projects?-->
+        <a href="code.html">Code</a>
+        
+        <!-- This section is for showing pretty pictures/videos, 3D models/z-stacks, or other (maybe semi-raw) data. -->
+        <!-- <a href="loc">Gallery</a>  -->
 
-        <!-- <h1>Publications:</h1> --> <!-- This header is a repeat of the one at the top of the page, so I'm commenting it out for now.-->
-        <!-- I would, however, like to add some empty space between the above paragraph and the publications below instead...-->
-        <hr width="70%"
-            algin="center"
-            style="margin-bottom:1cm;"> <!-- [<hr>] stands for 'horizontal rule' ; it adds a horizontal line -->
+        <!-- <a href="loc">Hobbies</a> --> <!--There's the Life Sciences, and there's the "Real Life" Sciences--> <!-- I think that I actually won't include this section. -->
+    </nav> <!-- navigation bar end -->
 
-        <p> <b>Parent, S. E. O. Luu, A. E. E. Bruce, and R. Winklbauer. 
-            <i>Under review: Sept 2022.</i> 
-            Two-phase kinetics and cell cortex elastic behavior in <i>Xenopus</i> gastrula cell-cell adhesion. </b></p> <!--Include maybe a (very) brief explanation of the work?-->
+    
+    <!--Main contact goes below-->
+    <p style="margin-bottom:1cm;"> <!-- [style="margin-bottom:1cm;"] adds 1cm of empty space after the paragraph -->
+        Papers are organized chronologically. 
+        If you would like to read a paper but cannot access it for any reason, 
+        please feel free to contact me. 
+        <br/>First authorship entries are <b>bolded</b>, reviews are <i>italicized</i>.</p>
 
-        <p>Fei, Z., K. Bae, S. E. Parent, K. Goodwin, G. Tanentzapf, and A. E. E. Bruce. 
-            2019. 
-            A cargo model of yolk syncytial nuclear migration during zebrafish epiboly. 
-            <i>Development</i> 146(1): dev169664. 
-            DOI: <a href="https://doi.org/10.1242/dev.169664">10.1242/dev.169664</a></p> <!--I really didn't do that much for this paper, but maybe I can show off the code for the embryo analysis
-            here? I should check with Ashley first though...-->
+    <!-- <h1>Publications:</h1> --> <!-- This header is a repeat of the one at the top of the page, so I'm commenting it out for now.-->
+    <!-- I would, however, like to add some empty space between the above paragraph and the publications below instead...-->
+    <hr width="70%"
+        algin="center"
+        style="margin-bottom:1cm;"> <!-- [<hr>] stands for 'horizontal rule' ; it adds a horizontal line -->
 
-        <p>Barua, D., S. E. Parent, and R. Winklbauer. 
-            2017. 
-            Mechanics of fluid-filled interstitial gaps. II. Gap characteristics in <i>Xenopus</i> embryonic ectoderm. 
-            <i>Biophys. J.</i> 113(4): 923 &ndash; 936. 
-            DOI: <a href="https://doi.org/10.1016/j.bpj.2017.06.063">10.1016/j.bpj.2017.06.063</a></p>
+    <p> <b>Parent, S. E. O. Luu, A. E. E. Bruce, and R. Winklbauer. 
+        <i>Under review: Sept 2022.</i> 
+        Two-phase kinetics and cell cortex elastic behavior in <i>Xenopus</i> gastrula cell-cell adhesion. </b></p> <!--Include maybe a (very) brief explanation of the work?-->
 
-        <p><b>Parent, S. E., D. Barua, and R. Winklbauer. 
-            2017. 
-            Mechanics of fluid-filled interstitial gaps. I. Modeling gaps in a compact tissue. 
-            <i>Biophys. J.</i> 113(4): 913 &ndash; 922. 
-            DOI: <a href="https://doi.org/10.1016/j.bpj.2017.06.062">10.1016/j.bpj.2017.06.062</a></b></p>
+    <p>Fei, Z., K. Bae, S. E. Parent, K. Goodwin, G. Tanentzapf, and A. E. E. Bruce. 
+        2019. 
+        A cargo model of yolk syncytial nuclear migration during zebrafish epiboly. 
+        <i>Development</i> 146(1): dev169664. 
+        DOI: <a href="https://doi.org/10.1242/dev.169664" target="_blank" rel="noopener noreferrer">10.1242/dev.169664</a></p> <!--I really didn't do that much for this paper, but maybe I can show off the code for the embryo analysis
+        here? I should check with Ashley first though...-->
 
-        <p><i>Winklbauer, R. and S. E. Parent. 
-            2017. 
-            Forces driving cell sorting in the amphibian embryo. 
-            Mech. Dev. 144(Pt A): 81 &ndash; 91. 
-            DOI: <a href="https://doi.org/10.1016/j.mod.2016.09.003">10.1016/j.mod.2016.09.003</a></i></p>
+    <p>Barua, D., S. E. Parent, and R. Winklbauer. 
+        2017. 
+        Mechanics of fluid-filled interstitial gaps. II. Gap characteristics in <i>Xenopus</i> embryonic ectoderm. 
+        <i>Biophys. J.</i> 113(4): 923 &ndash; 936. 
+        DOI: <a href="https://doi.org/10.1016/j.bpj.2017.06.063" target="_blank" rel="noopener noreferrer">10.1016/j.bpj.2017.06.063</a></p>
 
-        <p>Luu, O., E. W. Damm, S. E. Parent, D. Barua, T. H. L. Smith, J. W. H. Wen, S. E. Lepage, M. Nagel, H. Ibrahim-Gawel, Y. Huang, A. E. E. Bruce, and R. Winklbauer. 
-            2015. 
-            PAPC mediates self/non-self-distinction during Snail1-dependent tissue separation. 
-            <i>J. Cell Biol. 208(6): 839 &ndash; 856.</i> <!-- &ndash; is the html code for an en dash (in LaTeX an en dash is written as two consecutive dashes, '--'')-->
-            DOI: <a href="https://doi.org/10.1083/jcb.201409026">10.1083/jcb.201409026</a></p>
+    <p><b>Parent, S. E., D. Barua, and R. Winklbauer. 
+        2017. 
+        Mechanics of fluid-filled interstitial gaps. I. Modeling gaps in a compact tissue. 
+        <i>Biophys. J.</i> 113(4): 913 &ndash; 922. 
+        DOI: <a href="https://doi.org/10.1016/j.bpj.2017.06.062" target="_blank" rel="noopener noreferrer">10.1016/j.bpj.2017.06.062</a></b></p>
+
+    <p><i>Winklbauer, R. and S. E. Parent. 
+        2017. 
+        Forces driving cell sorting in the amphibian embryo. 
+        Mech. Dev. 144(Pt A): 81 &ndash; 91. 
+        DOI: <a href="https://doi.org/10.1016/j.mod.2016.09.003" target="_blank" rel="noopener noreferrer">10.1016/j.mod.2016.09.003</a></i></p>
+
+    <p>Luu, O., E. W. Damm, S. E. Parent, D. Barua, T. H. L. Smith, J. W. H. Wen, S. E. Lepage, M. Nagel, H. Ibrahim-Gawel, Y. Huang, A. E. E. Bruce, and R. Winklbauer. 
+        2015. 
+        PAPC mediates self/non-self-distinction during Snail1-dependent tissue separation. 
+        <i>J. Cell Biol. 208(6): 839 &ndash; 856.</i> <!-- &ndash; is the html code for an en dash (in LaTeX an en dash is written as two consecutive dashes, '--'')-->
+        DOI: <a href="https://doi.org/10.1083/jcb.201409026" target="_blank" rel="noopener noreferrer">10.1083/jcb.201409026</a></p>
 
 
 
-    </body>
+</body>
 
 </html>

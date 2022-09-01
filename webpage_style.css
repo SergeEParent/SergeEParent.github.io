@@ -1,13 +1,59 @@
 body {
     padding-left: 11em;
+    padding-right: 11em;
     font-family:'Times New Roman', Times, serif;
     color:mintcream; /* Neat colors: 'MintCream', 'azure', 'greenyellow', 'whitesmoke' */
     background-color:black}
 
 /* The 'a' after nav refers to the anchor, it will replace a browsers defaults (eg. color) */
-nav a { 
-    color:greenyellow; 
+nav a:link{
+    font-weight:bold;
+    color:aqua; 
     background-color:black;
     margin: 0.3em;
     padding: 0.3em;
-    border: 0.1em greenyellow}
+    /* border: 0.1em aqua */
+}
+
+nav a:visited{
+    font-weight:bold;
+    color:aqua; 
+    background-color:black;
+    margin: 0.3em;
+    padding: 0.3em;
+    /* border: 0.1em aqua */
+}
+
+/* The order for a:link, a:visited, and a:hover is important -- specifically, a:hover must be defined after the previous two. */
+nav a:hover{
+    font-weight:bold;
+    /* color:greenyellow;  */
+    color:lawngreen;
+    background-color:black;
+    margin: 0.3em;
+    padding: 0.3em;
+    /* border: 0.1em greenyellow */
+}
+
+
+/* For the sake of consistency, we are going to apply these properties to hyperlinks in <p> tags as well */
+/* The 'a' after nav refers to the anchor, it will replace a browsers defaults (eg. color) */
+p a:link{
+    color:aqua; 
+    background-color:black;
+    /* border: 0.1em aqua */
+}
+
+p a:visited{
+    color:lawngreen; 
+    background-color:black;
+    /* border: 0.1em aqua */
+}
+
+/* The order for a:link, a:visited, and a:hover is important -- specifically, a:hover must be defined after the previous two. */
+p a:hover{
+    /* color:greenyellow;  */
+    color:lawngreen;
+    background-color:black;
+    /* border: 0.1em greenyellow */
+}
