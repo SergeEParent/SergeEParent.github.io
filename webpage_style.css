@@ -5,6 +5,7 @@ body {
     padding-left: 11em;
     padding-right: 11em;
     font-family:'Times New Roman', Times, serif;
+    font-size:large;
     color:mintcream; /* Neat colors: 'MintCream', 'azure', 'greenyellow', 'whitesmoke' */
     background-color:black}
 
@@ -61,4 +62,10 @@ p a:hover{
     /* border: 0.1em greenyellow */
 }
 
-/* want to add more sophisticated image sizing (e.g. make the image some proportion of the viewport */
+/* want to add more sophisticated image sizing (e.g. make the image some proportion of the viewport; this is called 'responsive web design' */
+
+picture {
+    max-width: 600px
+}
+
+blank_line {}

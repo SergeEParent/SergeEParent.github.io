@@ -5,6 +5,7 @@
 <head>
     <!-- The title is the text that shows up in the tab. -->
     <title>Serge E. Parent, Ph.D.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="webpage_style.css">
 </head>
 
@@ -44,7 +45,10 @@
     <main> <!-- main text goes here -->
         <h2>About Me:</h2>
 
-        <img src="portrait_photo.JPG" alt="Picture of me." style="padding-left:12pt; float:right; width:200px; height:auto; max-width:20%; max-height:auto">
+        <picture>
+            <!-- <source media="(min-width:400px)" srcset="portrait_photo.JPG"> -->
+            <img src="portrait_photo.JPG" alt="Picture of me." style="padding-left:12pt; float:right; width:100%; max-width:270px">
+        </picture>
 
         <p style="text-align:justify">
             I am a quantitative biologist with an interest in regenerative medicine and a belief that computation can help us better understand and predict biological systems. 

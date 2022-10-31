@@ -2,6 +2,7 @@
 
 <head>
     <title>Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="webpage_style.css">
 </head>
 
@@ -44,9 +45,10 @@
 
     <main>
         <p>
-            Here I will place some images, graphs, or videos that I think are beautiful.
-    
-            It will be a never-ending work in progress.
+            This page demonstrates some of what I have been able to produce with my skills. 
+            I will only be posting images that have not been included in a publication here. 
+            I encourage you to skim through some of my published work to see what else I have done. 
+            The work I have contributed to published articles is clearly indicated in the "Publications" section. 
         </p>
     
 
@@ -54,8 +56,9 @@
             Microscopy
         </h2>
 
+        <picture>
         <!-- <img src="gallery_media/ecm_ecto.TIF" alt="Ectoderm Xenopus cells stained with Tannic Acid." style="padding-left:12pt; float:center; width:200px; height:200px;"> -->
-
+        </picture>
         <p>
 
         </p>
@@ -65,12 +68,15 @@
             Image Analysis
         </h2>
 
-        <!-- <img src="gallery_media/outlined_cells.TIF" alt="Pixelated borders drawn around cells." style="padding-left:12pt; float:right; width:200px; height:200px;"> -->
-
-        <img src="./gallery_media/cell_outline_example.pdf" alt="A 2-pixel wide outline of ectoderm cells overlaying a micrograph from the corresponding timepoint." style="display:block; margin-left:auto; margin-right:auto; width:auto; height:auto; max-width:50%; max-height:auto;">
+        <picture>
+            <!-- <source media="(max-width=600px)" srcset="./gallery_media/cell_outline_example.png">  -->
+            <!-- style="display:block; margin-left:auto; margin-right:auto; width:auto; height:auto; max-width:30%; max-height:auto;">  -->
+            <!-- alt="cell_outlines" style="display:block; margin-left:auto; margin-right:auto; width:auto; height:auto; max-width:50%; max-height:auto;"> -->
+            <img src="./gallery_media/cell_outline_example.png" alt="cell_outlines" style="display:block; margin-left:auto; margin-right:auto; width:70%; max-width:756px">
+        </picture> 
 
         <p>
-
+            A 2-pixel wide outline of ectoderm cells overlaying a micrograph from the corresponding timepoint.
         </p>
 
 
@@ -78,10 +84,12 @@
             Data Visualization
         </h2>
 
-        <img src="./gallery_media/ee_lifeact_kymo_example.pdf" alt="Heatmaps of contact and non-contact F-actin fluorescence." style="display:block; margin-left:auto; margin-right:auto; width:auto; height:auto; max-width:50%; max-height:auto;">
+        <picture>
+            <img src="./gallery_media/ee_lifeact_kymo_example.png" alt="kymograph" style="display:block; margin-left:auto; margin-right:auto; width:70%; max-width:756px">
+        </picture>
 
         <p>
-
+            Heatmaps of contact and non-contact F-actin fluorescence.
         </p>
 
     </main>
