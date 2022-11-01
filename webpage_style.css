@@ -1,31 +1,34 @@
 /* 'margin: auto' centers the website */
 body {
     max-width: 1080px;
-    margin: auto;
-    padding-left: 11em;
-    padding-right: 11em;
+    margin:auto;
+    /* padding-left: 11em; */
+    /* padding-right: 11em; */
     font-family:'Times New Roman', Times, serif;
     font-size:large;
     color:mintcream; /* Neat colors: 'MintCream', 'azure', 'greenyellow', 'whitesmoke' */
-    background-color:black}
+    background-color:black;
+    border:thin solid red;
+    overflow:scroll;
+}
 
 /* The 'a' after nav refers to the anchor, it will replace a browsers defaults (eg. color) */
 nav a:link{
     font-weight: bold;
     color: aqua; 
     background-color: black;
-    margin: 0.3em;
-    padding: 0.3em;
-    /* border: 0.1em aqua */
+    margin: 0.5%;
+    padding: 0.5%;
+    /* border:thin solid aqua */
 }
 
 nav a:visited{
     font-weight: bold;
     color: aqua; 
-    background-color:b lack;
-    margin: 0.3em;
-    padding: 0.3em;
-    /* border: 0.1em aqua */
+    background-color:black;
+    margin: 0.5%;
+    padding: 0.5%;
+    /* border:thin solid aqua */
 }
 
 /* The order for a:link, a:visited, and a:hover is important -- specifically, a:hover must be defined after the previous two. */
@@ -34,9 +37,9 @@ nav a:hover{
     /* color:greenyellow;  */
     color: lawngreen;
     background-color: black;
-    margin: 0.3em;
-    padding: 0.3em;
-    /* border: 0.1em greenyellow */
+    margin: 0.5%;
+    padding: 0.5%;
+    /* border:thin solid greenyellow */
 }
 
 
@@ -45,13 +48,13 @@ nav a:hover{
 p a:link{
     color: aqua; 
     background-color: black;
-    /* border: 0.1em aqua */
+    /* border:thin solid aqua */
 }
 
 p a:visited{
     color: lawngreen; 
     background-color: black;
-    /* border: 0.1em aqua */
+    /* border:thin solid aqua */
 }
 
 /* The order for a:link, a:visited, and a:hover is important -- specifically, a:hover must be defined after the previous two. */
@@ -59,13 +62,11 @@ p a:hover{
     /* color:greenyellow;  */
     color: lawngreen;
     background-color: black;
-    /* border: 0.1em greenyellow */
+    /* border:thin solid greenyellow */
 }
 
 /* want to add more sophisticated image sizing (e.g. make the image some proportion of the viewport; this is called 'responsive web design' */
 
-picture {
+/* picture {
     max-width: 600px
-}
-
-blank_line {}
+} */
