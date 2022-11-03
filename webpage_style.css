@@ -1,7 +1,7 @@
 /* 'margin: auto' centers the website */
 body {
     max-width: 1080px;
-    margin:auto;
+    margin:1.5%;
     /* padding-left: 11em; */
     /* padding-right: 11em; */
     font-family:'Times New Roman', Times, serif;
